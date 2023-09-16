@@ -11,6 +11,8 @@
 		EED6CA542AB60AA400C1B421 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EED6CA532AB60AA400C1B421 /* ContentView.swift */; };
 		EED6CA562AB60AA600C1B421 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EED6CA552AB60AA600C1B421 /* Assets.xcassets */; };
 		EED6CA5A2AB60AA600C1B421 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EED6CA592AB60AA600C1B421 /* Preview Assets.xcassets */; };
+		EED6CA612AB649D000C1B421 /* CircleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EED6CA602AB649D000C1B421 /* CircleView.swift */; };
+		EED6CA632AB64B7400C1B421 /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EED6CA622AB64B7300C1B421 /* MapView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +22,8 @@
 		EED6CA552AB60AA600C1B421 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		EED6CA572AB60AA600C1B421 /* SwiftUI_Homework.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = SwiftUI_Homework.entitlements; sourceTree = "<group>"; };
 		EED6CA592AB60AA600C1B421 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		EED6CA602AB649D000C1B421 /* CircleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleView.swift; sourceTree = "<group>"; };
+		EED6CA622AB64B7300C1B421 /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +58,8 @@
 			children = (
 				EED6CA512AB60AA400C1B421 /* SwiftUI_HomeworkApp.swift */,
 				EED6CA532AB60AA400C1B421 /* ContentView.swift */,
+				EED6CA622AB64B7300C1B421 /* MapView.swift */,
+				EED6CA602AB649D000C1B421 /* CircleView.swift */,
 				EED6CA552AB60AA600C1B421 /* Assets.xcassets */,
 				EED6CA572AB60AA600C1B421 /* SwiftUI_Homework.entitlements */,
 				EED6CA582AB60AA600C1B421 /* Preview Content */,
@@ -139,6 +145,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EED6CA612AB649D000C1B421 /* CircleView.swift in Sources */,
+				EED6CA632AB64B7400C1B421 /* MapView.swift in Sources */,
 				EED6CA542AB60AA400C1B421 /* ContentView.swift in Sources */,
 				EED6CA522AB60AA400C1B421 /* SwiftUI_HomeworkApp.swift in Sources */,
 			);

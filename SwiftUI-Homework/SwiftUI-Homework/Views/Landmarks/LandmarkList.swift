@@ -23,6 +23,7 @@ struct LandmarkList: View {
                 Toggle(isOn: $showFavoritesOnly) {
                     Text("Favorites only")
                 }
+                .tint(.teal)
                 
                 ForEach(filteredLandmarks) { landmark in
                     NavigationLink {
@@ -33,6 +34,7 @@ struct LandmarkList: View {
                 }
                 
             }
+            .listStyle(.grouped)
             .navigationTitle("Landmarks")
         }
     }

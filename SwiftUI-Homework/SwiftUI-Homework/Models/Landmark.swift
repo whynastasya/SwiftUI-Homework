@@ -34,5 +34,14 @@ struct Landmark: Hashable, Codable, Identifiable {
     }
     
     var isFavorite: Bool
+    
+    var category: Category
+    enum Category: String, CaseIterable, Codable {
+        case lakes = "Lakes"
+        case rivers = "Rivers"
+        case mountains = "Mountains"
+    }
+    
+    var isFeatured: Bool
 }
 

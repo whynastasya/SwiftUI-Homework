@@ -34,7 +34,6 @@ struct LandmarkList: View {
                 }
                 
             }
-            .listStyle(.grouped)
             .navigationTitle("Landmarks")
         }
     }
